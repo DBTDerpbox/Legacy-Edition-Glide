@@ -1,0 +1,18 @@
+##Boosters
+#Yellow
+execute at @e[type=area_effect_cloud,tag=YellowBooster] run particle wax_on ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
+#Orange
+execute at @e[type=area_effect_cloud,tag=OrangeBooster] run particle wax_off ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
+
+##Spawn Locations
+#Checkpoint
+execute at @e[type=area_effect_cloud,tag=CheckpointTP] run particle scrape ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
+#Start
+execute at @e[type=area_effect_cloud,tag=StartTP] run particle end_rod ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
+#New Lobby
+execute at @e[type=area_effect_cloud,tag=NewLobbyTP] run particle scrape ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
+#Old Lobby
+execute at @e[type=area_effect_cloud,tag=OldLobbyTP] run particle end_rod ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a
+
+##Center
+execute at @e[type=area_effect_cloud,tag=MapCenter] run particle reverse_portal ~ ~0.3 ~ 0.125 0.125 0.125 0 4 normal @a

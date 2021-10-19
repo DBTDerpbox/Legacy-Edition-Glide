@@ -1,0 +1,69 @@
+##Display message
+tellraw @s ["",{"text":"Come join the Community Server to talk about LEB, ask for help, find groups to play with and see development updates!","color":"#7289DA"},"\n",{"text":"https://discord.gg/mqpf93ZTgM","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/mqpf93ZTgM"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to open: https://discord.gg/mqpf93ZTgM","color":"blue"}]}}]
+
+##Set default gamemode
+gamemode adventure @s
+
+##Remove tags
+tag @s remove host
+tag @s remove player
+tag @s remove spectator
+tag @s remove lobby
+tag @s remove Victor
+tag @s remove Winner
+tag @s remove ready
+tag @s remove hungertemp
+tag @s remove fullhunger
+tag @s remove midhunger
+tag @s remove lowhunger
+tag @s remove healtemp
+tag @s remove fullhungerinit
+tag @a remove healthtemp
+tag @a remove midhealth
+tag @a remove fullhealth
+tag @a remove fullhealthinit
+tag @s remove respawndelay
+tag @s remove headstore
+
+##Add notready tag
+tag @s add notready
+
+##Leave team
+team leave @s
+
+##Set PID
+scoreboard players reset @s
+function 4jglide:game/player/setpid
+
+##Send to menu
+execute if score #Store 4j.gamestatus matches 0 run function 4jglide:menu/load/user
+
+##Add to player count
+function 4jglide:disconnect/add
+
+##Check the Game Status
+function 4jglide:relog/gamecheck
+
+##Load GlobalInfo
+function 4jglide:game/gui/globalinfo/load
+
+##Remove cooldown
+function 4jglide:game/combat/cooldown
+
+##Disable FriendlyFire
+execute as @s run attribute @s minecraft:generic.attack_damage base set -100
+
+##Clear inventory
+clear @s
+
+##Load MapDecider
+execute if score #Store 4j.gamestatus matches 1 run function 4jglide:mapdecider/vote/join
+
+##Clear hunger display
+function 4jglide:game/hunger/cleardisplay
+
+##Load hunger
+execute if score #Store 4j.gamestatus matches 2 run function 4jglide:game/hunger/join
+
+##Reset score
+scoreboard players reset @s 4j.score

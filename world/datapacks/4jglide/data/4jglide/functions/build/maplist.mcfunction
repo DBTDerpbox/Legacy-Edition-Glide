@@ -1,0 +1,4 @@
+##Display list
+tellraw @a ["",{"text":"Select a map to edit: ","color":"blue"},{"text":"[Canyon] ","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/execute in 4jglide:canyon run tp 177 236 -293"}}]
+
+#minecraftjson export: {"jformat":7,"jobject":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"font":null,"color":"blue","insertion":"","click_event_type":0,"click_event_value":"","hover_event_type":0,"hover_event_value":"","hover_event_object":{},"hover_event_children":[],"text":"Select a map to edit: "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"font":null,"color":"dark_aqua","insertion":"","click_event_type":"2","click_event_value":"/execute in 4jglide:canyon run tp 177 236 -293","hover_event_type":0,"hover_event_value":"","hover_event_object":{},"hover_event_children":[],"text":"[Canyon] "}],"command":"tellraw @a %s","jtemplate":"tellraw"}

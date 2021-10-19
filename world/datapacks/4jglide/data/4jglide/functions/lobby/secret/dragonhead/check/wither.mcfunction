@@ -1,0 +1,1 @@
+execute if block -343 35 -339 redstone_block run function 4jglide:lobby/secret/dragonhead/check/player

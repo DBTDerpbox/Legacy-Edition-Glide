@@ -1,0 +1,27 @@
+{
+  "4jglide:master": {
+    "criteria": {
+      "requirement": "2021-07-11 15:26:20 -0500"
+    },
+    "done": true
+  },
+  "4jglide:scratch": {
+    "criteria": {
+      "requirement": "2021-07-11 16:14:53 -0500"
+    },
+    "done": true
+  },
+  "4jglide:root": {
+    "criteria": {
+      "requirement": "2021-07-11 14:55:30 -0500"
+    },
+    "done": true
+  },
+  "4jglide:student": {
+    "criteria": {
+      "requirement": "2021-07-11 15:24:37 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 2730
+}

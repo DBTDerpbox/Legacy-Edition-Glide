@@ -1,0 +1,1 @@
+execute if block -345 35 -344 redstone_block run function 4jglide:lobby/secret/dragonhead/open
