@@ -1,0 +1,92 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "4jglide:negative_spaces.ttf",
+            "shift": [0.0, 0.0],
+            "size": 10.0,
+            "oversample": 1.0
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:banner.png",
+            "ascent": 0,
+            "height": 120,
+            "chars": [
+                "1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:banner_textbox.png",
+            "ascent": -24,
+            "height": 30,
+            "chars": [
+                "2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:banner_showdown.png",
+            "ascent": -24,
+            "height": 30,
+            "chars": [
+                "3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:playerbar/blue.png",
+            "ascent": -36,
+            "height": 5,
+            "chars": [
+                "4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:playerbar/pink.png",
+            "ascent": -36,
+            "height": 5,
+            "chars": [
+                "5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:playerbar/orange.png",
+            "ascent": -36,
+            "height": 5,
+            "chars": [
+                "6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:playerbar/yellow.png",
+            "ascent": -36,
+            "height": 5,
+            "chars": [
+                "7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:playerbar/aqua.png",
+            "ascent": -36,
+            "height": 5,
+            "chars": [
+                "8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "4jglide:playerbar/empty.png",
+            "ascent": -36,
+            "height": 5,
+            "chars": [
+                "0"
+            ]
+        }
+    ]
+}

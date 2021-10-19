@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "item/4jglide/build/exit"},
+    {"predicate": {"custom_model_data":2}, "model": "item/credits/credits_0"},
+    {"predicate": {"custom_model_data":3}, "model": "item/4jglide/menu/monitor"},
+    {"predicate": {"custom_model_data":4}, "model": "item/4jglide/lobby/ready"},
+    {"predicate": {"custom_model_data":5}, "model": "item/4jglide/lobby/notready"}
+  ]
+}

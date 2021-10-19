@@ -1,0 +1,61 @@
+{
+	"credit": "Made by DBTDerpbox, created with Blockbench",
+	"textures": {
+		"0": "4jglide/booster/yellow",
+		"particle": "4jglide/booster/yellow"
+	},
+	"elements": [
+		{
+			"from": [-8, -7, -15.5],
+			"to": [-7, 23, 31.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -7, -0.5]},
+			"faces": {
+				"north": {"uv": [0, 1, 16, 1], "texture": "#0"},
+				"east": {"uv": [0, 1, 16, 15], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [0, 1, 16, 1], "texture": "#0"},
+				"west": {"uv": [0, 1, 16, 15], "texture": "#0"},
+				"up": {"uv": [0, 1, 16, 1], "texture": "#0"},
+				"down": {"uv": [0, 1, 16, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [23, -7, -15.5],
+			"to": [24, 23, 31.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -7, -0.5]},
+			"faces": {
+				"north": {"uv": [0, 1, 16, 1], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 1, 16, 15], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [0, 1, 16, 1], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 1, 16, 15], "texture": "#0"},
+				"up": {"uv": [0, 1, 16, 1], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 1, 16, 1], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [-8, 23, -15.5],
+			"to": [24, 24, 31.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -7, -0.5]},
+			"faces": {
+				"north": {"uv": [0, 1, 16, 1], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 1, 16, 1], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 1, 16, 1], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 1, 16, 1], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 1, 16, 15], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 1, 16, 15], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [-8, -8, -15.5],
+			"to": [24, -7, 31.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -7, -0.5]},
+			"faces": {
+				"north": {"uv": [0, 1, 16, 1], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [0, 1, 16, 1], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 1, 16, 1], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 1, 16, 1], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 1, 16, 15], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 1, 16, 15], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

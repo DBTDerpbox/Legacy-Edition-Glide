@@ -1,0 +1,154 @@
+{
+  "music.vanilla.1": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/vanilla1"
+    ]
+  },
+  "music.vanilla.2": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/vanilla2"
+    ]
+  },
+  "music.vanilla.3": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/vanilla3"
+    ]
+  },
+  "music.vanilla.4": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/vanilla4"
+    ]
+  },
+  "music.fantasy.1": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/fantasy1"
+    ]
+  },
+  "music.fantasy.2": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/fantasy2"
+    ]
+  },
+  "music.fantasy.3": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/fantasy3"
+    ]
+  },
+  "music.frontier.1": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/frontier1"
+    ]
+  },
+  "music.frontier.2": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/frontier2"
+    ]
+  },
+  "music.frontier.3": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/frontier3"
+    ]
+  },
+  "music.shrunk.1": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/shrunk1"
+    ]
+  },
+  "music.shrunk.2": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/shrunk2"
+    ]
+  },
+  "music.shrunk.3": {
+    "category": "master",
+    "sounds": [
+      "4jglide/music/shrunk3"
+    ]
+  },
+  "sound.lobby.count1": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/lobby/count1"
+    ]
+  },
+  "sound.lobby.count2": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/lobby/count2"
+    ]
+  },
+  "sound.lobby.count3": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/lobby/count3"
+    ]
+  },
+  "sound.game.count1": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/count1"
+    ]
+  },
+  "sound.game.count2": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/count2"
+    ]
+  },
+  "sound.game.count3": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/count3"
+    ]
+  },
+  "sound.game.count4": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/count4"
+    ]
+  },
+  "sound.game.die": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/die1",
+      "4jglide/sounds/game/die2"
+    ]
+  },
+  "sound.game.refill": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/refill1",
+      "4jglide/sounds/game/refill2"
+    ]
+  },
+  "sound.game.showdown": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/showdown"
+    ]
+  },
+  "sound.game.end": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/end"
+    ]
+  },
+  "sound.game.win": {
+    "category": "master",
+    "sounds": [
+      "4jglide/sounds/game/win"
+    ]
+  }
+}
